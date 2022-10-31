@@ -390,6 +390,8 @@ body {
 .member-team {
     display: block;
     width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     /* flex-basis: calc(100% - 3 * 30px) / 4; */
     
 }
@@ -405,6 +407,36 @@ body {
     padding-bottom: 30px;
     border-top: none;
 } 
+
+.team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 16px;  */
+ 
+}
+
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+.social-link-img {
+    fill: currentColor;  
+}
+.social-link:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 
 /* ===================================
                footer 
