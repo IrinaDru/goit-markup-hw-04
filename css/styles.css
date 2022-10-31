@@ -170,17 +170,6 @@ body {
     background-position: center;
 }
 
-.overlay {
-    /* background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)); */
-    /* max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/hero/hero.jpg) */
-
-}
-
-
 .container-hero {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -286,6 +275,17 @@ body {
 .feature-list {
     flex-basis: calc((100% - 90px) / 4);
 } 
+
+.feature-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
 
 .features {
     display: flex;
