@@ -151,6 +151,16 @@ body {
     border-bottom: 1px solid var(--border-heder);
 }
 
+.contact-item-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-pic {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 
 /* ====================================
                  hero 
@@ -536,6 +546,50 @@ body {
 }
 
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer-social-item {
+    color: #FFFFFF;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #FFFFFF;;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.footer-link-img {
+    fill: currentColor;  
+}
+.footer-social-link:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
 
 /* =====================================
 ========================================
@@ -558,12 +612,15 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    
 }
 
 .button-pic:hover,
 .button-pic:focus {
     background-color: var(--accent-color);
-    color: var(--hero-text-color)
+    color: var(--hero-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--accent-color);
 }
 
 .btn-pointer-list:not(:last-child) {
