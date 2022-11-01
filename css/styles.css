@@ -437,6 +437,52 @@ body {
     background-color: #2196F3;
 }
 
+/* ===================================
+             clients                  
+======================================*/
+.clients-pic {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    width: 170px;
+    height: 92px; */
+    /* border: 1px solid #AFB1B8;
+    border-radius: 4px; */
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.clients {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    /* background-color: #FFFFFF; */
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-logo {
+    fill: currentColor;
+}   
+
+.clients-link:hover,
+.clients-link:focus {
+    color: #2196F3;
+    border-color: #2196F3;
+} 
+
 
 /* ===================================
                footer 
