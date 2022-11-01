@@ -37,7 +37,12 @@ img {
 }
 
 body {
-    margin: 0;
+    
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--hero-text-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
